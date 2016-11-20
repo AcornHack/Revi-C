@@ -1,5 +1,5 @@
 	<!DOCTYPE html>
-	<html>
+	<html >
 	<head>
 		<title>Home</title>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -57,7 +57,7 @@
   </button>
   <ul class="dropdown-menu" aria-labelledby="dLabel">
     <li><a href="#">Black and White</a></li>
-    <li><a href="#">Larger text</a></li>
+    <li><a id="car"onclick="largetext()">Larger text</a></li>
   </ul>
 </div></li></li>
 				</div>
@@ -259,4 +259,7 @@
 	$('#myModal').on('shown.bs.modal', function () {
   $('#myInput').focus()
 })
+
+	function largetext() { swapStyleSheet("largertext.css"); };
+	car.onclick = function () { swapStyleSheet("largertext.css") }; 
 </script>
