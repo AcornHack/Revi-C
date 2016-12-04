@@ -140,7 +140,7 @@ body {
   perspective: 800;
   width: 100%;
   height: 100vh;
-  background: #010101;
+  background: #E5E5E5;
 }
 .cube {
   position: relative;
